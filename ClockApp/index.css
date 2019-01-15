@@ -1,14 +1,45 @@
-* { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+* {
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+}
 
 html {
-    text-align : center;
+    text-align: center;
 }
 
 .js-clock {
-    margin-top:300px;
+    margin-top: 300px;
 }
 
 .js-title {
     font-weight: 100;
-    font-size:100px;
+    font-size: 100px;
+    margin-bottom:0;
+}
+
+.greetings, .form input {
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0 auto;
+}
+
+.form input {
+    border: none;
+    border-bottom : 1px solid #7f8c8d;
+    text-align: center;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.form, .greetings {
+    display: none;
+}
+
+.showing {
+    display: block !important;
+}
+
+.clicked {
+    color: #7f8c8d;
 }
