@@ -10,7 +10,7 @@ function getTime() {
   clockTitle.innerText = `${
     hours>12?`PM ${
       hours-12 < 10?`0${hours-12}`:hours-12}`:`AM ${
-      hours-12 < 10?`0${hours-12}`:hours-12}`}:${
+      hours-12 < 10?`0${hours}`:hours}`}:${
     minutes<10?`0${minutes}`:minutes}:${
     seconds<10?`0${seconds}`:seconds}
   `;
