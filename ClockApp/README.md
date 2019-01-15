@@ -1,6 +1,6 @@
 ### Simple ClockApp
 
-![clockApp](/Users/sohye/Tasks/VanilaJs-Study/ClockApp/clockApp.gif)
+![clockApp](clockApp.gif)
 
 * simple clockapp playing with local storage
 
