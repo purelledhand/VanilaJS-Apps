@@ -2,7 +2,7 @@
 
 ### Simple Clock
 
-![clock](ClockApp/clockapp.gif)
+![clock](ClockApp/clockApp.gif)
 
 
 
