@@ -1,0 +1,101 @@
+* {
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+}
+
+html {
+    text-align: center;
+}
+
+.js-title {
+    font-weight: 100;
+    font-size: 50px;
+    margin-bottom:0;
+}
+
+.greetings {
+    font-size: 36px;
+}
+
+.js-form input {
+    font-size: 30px;
+}
+
+.greetings, .js-form input {
+    font-weight: 300;
+    margin: 0 auto;
+}
+
+.js-toDoForm input {
+    font-size: 30px;
+    font-weight: 100;
+    margin: 0 auto;
+}
+input {
+    border: none;
+    border-bottom : 1px solid #7f8c8d;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+.form, .greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+.hiding {
+    display: none;
+}
+
+.clicked {
+    color: #7f8c8d;
+}
+
+.ToDoContainer {
+    margin: 50px auto;
+    width: 300px;
+}
+
+.ToDoContainer ul {
+    list-style: none;
+    padding:0;
+    margin-top: 40px;
+}
+
+.ToDoContainer li {
+    padding: 0 0 0 10px;
+    font-size: 26px;
+    font-weight: 200;
+    text-align: left;
+}
+
+
+.ToDoContainer li>span:hover {
+    font-weight: 300;
+}
+
+.ToDoContainer li>button {
+    float:right;
+    height: 37px;
+    font-size: 23px;
+    font-weight: 100;
+    background-color: transparent;
+    border: none;
+}
+
+.ToDoContainer li>button:hover {
+    font-size: 25px;
+}
+.ToDoContainer li>button:focus {
+    outline: none;
+}
+
+.success {
+    text-decoration: line-through;
+    color: #7f8c8d;
+}
